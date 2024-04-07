@@ -2,8 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-styles/NodeRedGraphs.module.css 
-.iframeContainer iframe {
-  border: none;
-  padding: 0;
- }
