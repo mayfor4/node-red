@@ -7,7 +7,7 @@ export default function Home() {
   return (
    <h1>Bienvenidos</h1>
   )
-}*/
+}
 
 import NodeRedGraphs from '../components/NodeRedGraphs';
 
@@ -20,4 +20,18 @@ const Dashboard = () => {
  );
 };
 
-export default Dashboard;
+export default Dashboard;*/
+
+// pages/index.js
+import MqttClient from '../components/MqttClient';
+
+const HomePage = () => {
+  return (
+    <div>
+      <h1>Aplicación Next.js con MQTT</h1>
+      <MqttClient />
+    </div>
+  );
+};
+
+export default HomePage;
